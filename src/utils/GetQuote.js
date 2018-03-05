@@ -15,10 +15,9 @@ export class GetQuote extends React.Component{
     axios.get("https://quotes.rest/qod?category=inspire", {
   "Accept": "application/json"})
       .then(res => {
-        console.log(res.body['contents']['quotes'][0]['quote']);
-        const quote = res.body['contents']['quotes'][0]['quote'];
-        const author = res.body['contents']['quotes'][0]['author'];
-        
+        const quote = res['data']['contents']['quotes'][0]['quote'];
+        const author = res['data']['contents']['quotes'][0]['author'];
+       
         this.setState({
           defaultQuote: quote,
           defaultAuthor: author

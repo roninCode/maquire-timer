@@ -4,7 +4,7 @@ export class Exercise extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      exercises: ["30 pushups", "35 squates", "50 jumping jacks", "30 calf raises", "10 burpees...oh no!!!", "walk around the room for 2 mintues....Go OUTSIDE! if it\'s nice out!"],
+      exercises: ["30 pushups", "35 squates", "50 jumping jacks", "30 calf raises", "10 burpees...oh no!!!", "walk around the room for 2 mintues....Go OUTSIDE! if it's nice out!"],
       selectedExercise: null,
     }
     this.getRandomExercise = this.getRandomExercise.bind(this);
