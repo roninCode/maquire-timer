@@ -30,7 +30,7 @@ export class GetQuote extends React.Component{
 
   render(){
     return(
-      <div>
+      <div className="quote-block">
         <h3>"{this.state.defaultQuote}"</h3>
         <p>- {this.state.defaultAuthor}</p>
       </div>

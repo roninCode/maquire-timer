@@ -1,26 +1,17 @@
 .App {
   text-align: center;
+  position: relative;
+  min-height: 100%;
 }
 
-body {
-  color: #f51423;
-  background-image: url("./Images/robots.png")
-}
-
-.App-logo-container {
-  border-radius: 50%;
-}
-
-.App-logo-container img {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-  margin: auto;
-  width: 10%;
+.App-intro {
+  font-size: large;
 }
 
 .App-header {
   background-color: #000;
   height: 100px;
+  width: 100%;
   padding: 20px;
   color: #f51423;
 }
@@ -39,17 +30,31 @@ body {
   font-family: cursive;
 }
 
-.App-intro {
-  font-size: large;
+.App-footer {
+  background-color: #000;
+  height: 50px;
+  width: 100%;
+  color: #f51423;
+  padding: 25px;
+  margin-top: 50px;
+  bottom: 0;
 }
 
-.top-margin {
-  margin-top: 15px;
+body {
+  color: #f51423;
+  background-image: url("./Images/robots.png");
+  height: 100%;
 }
 
-.quote {
-  margin-left: 250px;
-  margin-right: 250px;
+.App-logo-container {
+  border-radius: 50%;
+}
+
+.App-logo-container img {
+  animation: App-logo-spin infinite 3s linear;
+  height: 80px;
+  margin: auto;
+  width: 10%;
 }
 
 .navList li a{
@@ -60,6 +65,24 @@ body {
 ul {
   list-style: none;
   text-align: left;
+}
+
+.active{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.top-margin {
+  margin-top: 15px;
+}
+
+.quote-block {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.shia {
+  border-radius: 40px;
 }
 
 @keyframes App-logo-spin {
