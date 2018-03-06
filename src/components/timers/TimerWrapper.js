@@ -35,7 +35,7 @@ export class TimerWrapper extends React.Component{
           <img className="top-margin" src="https://s.aolcdn.com/hss/storage/midas/76bfb605bf27ca9945a59f8a00655b8/204688835/Jerry_INTRO.jpg" alt="Jerry Maquire"/>
           <h1>Alright, back to work!</h1>
           <Timer seconds={this.state.seconds} onTimerCompleted={this.handleWorkTimerCompleted} />
-          <GetQuote />
+          <GetQuote className="quote" />
         </div>
       )
     }
