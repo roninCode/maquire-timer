@@ -14,8 +14,6 @@ export class Timer extends React.Component {
     this.handleStartTimer = this.handleStartTimer.bind(this);
     this.countDownOneSecond = this.countDownOneSecond.bind(this);
     this.handleResetTimer = this.handleResetTimer.bind(this);
-    this.prettySeconds = this.prettySeconds.bind(this);
-    this.prettyMinutes = this.prettyMinutes.bind(this);
   }
 
   componentDidMount(){

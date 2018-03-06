@@ -7,7 +7,9 @@ export class AppHeader extends React.Component{
         <div className="App-header-content">
           <h1 className="App-header-left">Maquire</h1>
           <h1 className="App-header-right">Timer</h1>
-          <img className="App-header-center" src={"https://pbs.twimg.com/profile_images/877143503452688384/tcGwgimP_400x400.jpg"} className="App-logo" alt="logo" />
+        </div>
+        <div className="App-logo-container">
+          <img src={require("../Images/bicepCircle.jpg")} alt="logo" />
         </div>
       </header>
     )

@@ -7,9 +7,15 @@ body {
   background-image: url("./Images/robots.png")
 }
 
-.App-logo {
+.App-logo-container {
+  border-radius: 50%;
+}
+
+.App-logo-container img {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
+  margin: auto;
+  width: 10%;
 }
 
 .App-header {
@@ -33,11 +39,6 @@ body {
   font-family: cursive;
 }
 
-.App-header-center{
-  margin: auto;
-  width: 10%;
-}
-
 .App-intro {
   font-size: large;
 }
@@ -49,6 +50,16 @@ body {
 .quote {
   margin-left: 250px;
   margin-right: 250px;
+}
+
+.navList li a{
+  text-decoration: none;
+  color: #f51423;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
 }
 
 @keyframes App-logo-spin {
