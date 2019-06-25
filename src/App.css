@@ -89,3 +89,8 @@ ul {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.timer-button {
+  padding: 20px;
+  background-color: white;
+}

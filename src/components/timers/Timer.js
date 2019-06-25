@@ -118,10 +118,10 @@ export class Timer extends React.Component {
     return(
       <div>
         <h1>{this.state.prettyMinutes}: {this.state.prettySeconds}</h1>
-        <button onClick={ this.handleIncrement }>Increment</button>
-        <button onClick={ this.handleDecrement }>Decrement</button>
-        <button onClick={ this.handleStartTimer }>Start Timer</button>
-        <button onClick={ this.handleResetTimer }>Reset</button>
+        <button className="timer-button" onClick={ this.handleIncrement }>Increment</button>
+        <button className="timer-button" onClick={ this.handleDecrement }>Decrement</button>
+        <button className="timer-button" onClick={ this.handleStartTimer }>Start Timer</button>
+        <button className="timer-button" onClick={ this.handleResetTimer }>Reset</button>
       </div>
     )
   }

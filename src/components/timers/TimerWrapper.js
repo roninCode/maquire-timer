@@ -44,7 +44,7 @@ export class TimerWrapper extends React.Component{
         <div>
           <MusicPlayer />
           <Exercise />
-          <button onClick={this.handleExerciseCompleted}>Go back to work now</button>
+          <button className="timer-button" onClick={this.handleExerciseCompleted}>Go back to work now</button>
           <p>You better'v done your exercise!</p>
           <video className="shia" width="400" autoplay="true" loop="true">
             <source src="justDoIt.mp4" type="video/mp4" />
